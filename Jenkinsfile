@@ -6,12 +6,13 @@ pipeline {
         jdk 'JDK11'
     }
 
-    stages {
-        stage('Clonar') {
-            steps {
-                https://github.com/Clariveljn/saludoapp.git
-            }
+    stage('Clonar') {
+        steps {
+            git url: 'https://github.com/Clariveljn/saludoapp.git',
+                branch: 'main',
+                credentialsId: 'github-pat'
         }
+    }
 
         stage('Compilar') {
             steps {
