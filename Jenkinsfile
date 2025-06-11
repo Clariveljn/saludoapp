@@ -11,7 +11,6 @@ pipeline {
             steps {
                 git url: 'https://github.com/Clariveljn/saludoapp.git',
                     branch: 'main',
-                    credentialsId: 'github-pat'
             }
         }
 
