@@ -10,7 +10,7 @@ pipeline {
         stage('Clonar') {
             steps {
                 git url: 'https://github.com/Clariveljn/saludoapp.git',
-                    branch: 'main',
+                    branch: 'main'
             }
         }
 
