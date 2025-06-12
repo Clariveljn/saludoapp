@@ -35,6 +35,12 @@ Este proyecto incluye un Jenkinsfile que define las siguientes etapas:
 * 💥 Si alguna etapa falla, se muestra:
 "El build falló"
 
+## 📸 Capturas de Jenkins
+
+### ✅ Ejecución exitosa del pipeline en Jenkins
+
+![Build Exitoso en Jenkins](doc/img/build-exitoso.png)
+
 ## 🧠 Experiencia
 ### ¿Qué aprendimos?
 * A configurar un proyecto Java con Maven y pruebas unitarias.
